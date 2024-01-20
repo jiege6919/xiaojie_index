@@ -17,8 +17,9 @@
 **用于生产环境**
 
 > npm run build
+> 
 > 在dist文件夹下
 
-每一版本都有node_modules打包
+每一版本都有node_modules打包，预防万一
 
 0.1.0版本 / 2024年1月20日
