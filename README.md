@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# yangjie.site 引导页
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+由 Vite & Vue 写的。这里只包括src项目目录和public公共目录，及根HTML文件。其余依赖需要自行配置。
 
-## Recommended IDE Setup
+## 配置Vite
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+**npm 安装**
+
+> npm create vite@latest
+
+之后选择最新的vue，勾上，不出意外，项目下就会出现node_modules文件夹。安装插件等其他什么的，都在其中体现。
+
+**用于预览**
+
+> npm run dev
+
+**用于生产环境**
+
+> npm run build
+> 在dist文件夹下
+
+每一版本都有node_modules打包
+
+0.1.0版本 / 2024年1月20日
