@@ -1,5 +1,8 @@
 # 一个简单大气美观的 引导页
 
+![效果](https://github.com/jiege6919/xiaojie_index/assets/79750210/ececaba9-6019-4ede-a778-cba797df75ee)
+
+
 由 Vite & Vue 写的。这里只包括src项目目录和public公共目录，及根HTML文件。其余依赖需要自行配置。
 
 ## 配置Vite
