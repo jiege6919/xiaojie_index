@@ -1,4 +1,4 @@
-# yangjie.site 引导页
+# 一个简单大气美观的 引导页
 
 由 Vite & Vue 写的。这里只包括src项目目录和public公共目录，及根HTML文件。其余依赖需要自行配置。
 
