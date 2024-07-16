@@ -1,0 +1,20 @@
+{
+  "name": "xiaojie_index",
+  "private": true,
+  "version": "1.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "theme-switcher": "^1.0.2",
+    "vue": "^3.4.29",
+    "vue-dark-switch": "^1.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.3.1"
+  }
+}
