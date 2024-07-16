@@ -11,7 +11,7 @@
 
 > `npm create vite@latest`
 
-之后选择最新的vue，勾上。
+之后选择最新的 vue，勾上。
 
 **构建**
 >
@@ -27,7 +27,7 @@
 
 > `npm run build`
 > 
-> 在dist文件夹下
+> 在 dist 文件夹下
 
 0.1.0 版本 / 2024年1月20日
 
