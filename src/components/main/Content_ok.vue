@@ -10,6 +10,8 @@
             </svg> 子网站 / Subsites
         </div>
         <div class="projectList">
+
+            <p class="projectList_p"><code> IPV4</code></p>
             <!-- 项目列表开始 -->
             <!---->
             <a class="projectItem" target="_blank" href="https://box.yangjie.site">
@@ -19,19 +21,7 @@
                     <p>已迁到hexo，折腾不动了，长期耕耘，不瞎搞了</p>
                 </div>
                 <div class="projectItemRight">
-                    <img src="../../assets/images/512.png" alt="">
-                </div>
-                <!-- 项目项结束 -->
-            </a>
-            <!---->
-            <a class="projectItem" target="_blank" href="https://alist.jie-ipv6.cn:6688">
-                <!-- 项目项开始 -->
-                <div class="projectItemLeft">
-                    <h1>Nas管理</h1>
-                    <p>绕过nas登录，方便在外面管理，ipv6公网直连</p>
-                </div>
-                <div class="projectItemRight">
-                    <img src="../../assets/images/512.png" alt="">
+                    <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
@@ -39,11 +29,11 @@
             <a class="projectItem" target="_blank" href="https://nav.yangjie.site">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
-                    <h1>小杰导航</h1>
-                    <p>做网站的起点，一切的开始</p>
+                    <h1>导航</h1>
+                    <p>做网站的起点，一切的开始。很久没动了，等找个时间再好好优化一下吧，呜呜</p>
                 </div>
                 <div class="projectItemRight">
-                    <img src="../../assets/images/512.png" alt="">
+                    <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
@@ -51,10 +41,10 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>今日热榜 × 小杰</h1>
-                    <p>大佬写的 API，为了稳定，搭建在自己的服务器上，仅支持 ipv6。新闻热点，一网打尽，一目了然</p>
+                    <p>大佬写的 API，为了稳定，搭建在自己的服务器上，从ipv6转到ipv4了，腾讯云轻量服务器后续可能会支持 v4/v6 双通。新闻热点，一网打尽，一目了然</p>
                 </div>
                 <div class="projectItemRight">
-                    <img src="../../assets/images/512.png" alt="">
+                    <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
@@ -66,22 +56,46 @@
                     <p>还是想在外面多走走，祖国的大好河山还是看得太少了</p>
                 </div>
                 <div class="projectItemRight">
-                    <img src="../../assets/images/512.png" alt="">
+                    <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
             <a class="projectItem" target="_blank" href="https://music.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
-                    <h1>音乐小站</h1>
+                    <h1>原神，启动！</h1>
                     <p>大佬开源的web音乐，我用来放原神的BGM了</p>
                 </div>
                 <div class="projectItemRight">
-                    <img src="../../assets/images/512.png" alt="">
+                    <img src="/src/assets/images/512.png" alt="">
+                </div>
+                <!-- 项目项结束 -->
+            </a>
+            <a class="projectItem" target="_blank" href="https://admin.yangjie.site">
+                <!-- 项目项开始 -->
+                <div class="projectItemLeft">
+                    <h1>面板管理</h1>
+                    <p>层层加密，重兵把守，外人休闯！</p>
+                </div>
+                <div class="projectItemRight">
+                    <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
             <!---->
+            <p class="projectList_p"><code>IPV6</code></p>
+                <!---->
+            <a class="projectItem" target="_blank" href="https://alist.jie-ipv6.cn:6688">
+                <!-- 项目项开始 -->
+                <div class="projectItemLeft">
+                    <h1>Nas管理</h1>
+                    <p>绕过nas登录，方便在外面管理，ipv6公网直连</p>
+                </div>
+                <div class="projectItemRight">
+                    <img src="/src/assets/images/512.png" alt="">
+                </div>
+                <!-- 项目项结束 -->
+            </a>
         </div>
         <!-- 项目列表结束 -->
         <div class="title">
@@ -111,3 +125,38 @@
     </content>
     <!-- 内容结束 -->
 </template>
+
+<style scoped>
+.projectList_p {
+    font-size: 20px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 36px;
+    display: block;
+    text-align: center;
+
+}
+
+.projectList_p code::before {
+    /* background: #1296db;
+    color: #fff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    margin: 0 4px;
+    line-height: 2;
+    box-shadow: 0 8px 16px -4px rgba(44, 45, 48, 0.047); */
+    display: inline-block;
+    transform: rotate(-2deg) translateX(-50%);
+    position: absolute;
+    opacity: 0.3;
+    content: ' ';
+    width: 57px;
+    height: 44%;
+    left: 50%;
+    top: 5px;
+    z-index: -1;
+    border-radius: 0.4rem;
+    background-color: #1296db;
+}
+</style>

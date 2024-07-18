@@ -1,14 +1,14 @@
 @font-face {
   font-family: "a";
   /*中文字体 1*/
-  src: url(.../../assets/images/霞骛文楷.woff2);
+  src: url(assets/霞骛文楷.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: "b";
   /*中文字体 2*/
-  src: url(.../../assets/images/得意黑.woff2);
+  src: url(assets/得意黑.woff2);
   font-display: swap;
 }
 
@@ -71,7 +71,7 @@ a:focus {
   --project-item-hover-color: rgba(240, 241, 241, 0.6);
   --project-item-left-title-color: #000000;
   --project-item-left-text-color: #7e7e7e;
-  --xiaochengxu-dark-background: brightness(50%);
+  --xiaochengxu-dark-background: brightness(80%);
 }
 
 body {
@@ -306,7 +306,7 @@ body {
 
 .iconItem:hover {
   transform: translateY(-3px);
-  background: var(--icon-1-hover-color);
+  background: var(--icon-1-hover-color) !important;
 }
 
 .iconItem:nth-child(2):hover {
@@ -376,6 +376,7 @@ body {
   height: fit-content;
   width: calc(33% - 20px);
   transition: all 0.5s ease;
+  margin-top: 20px;
 }
 
 .projectItem.fade-in-visible {
@@ -507,7 +508,7 @@ footer a:hover {
     margin: 10px 0 10px 0;
   }
   .out_site img {
-    width: 36% !important;
+    width: 25% !important;
   }
 }
 
