@@ -44,7 +44,7 @@ export default {
             <span class="purpleText"> 业余的</span> 开发者 / 喜欢折腾各种
             <span class="purpleText"> 新鲜事物</span>
         </div>
-        <div class="description">
+        <div class="description d-2">
             <p id="typing-text"></p>
         </div>
         <div class="iconContainer">
@@ -110,5 +110,9 @@ export default {
     display: inline;
     margin-right: 10px;
     font-size: 16px;
+}
+
+.d-2 {
+    height: 64px;
 }
 </style>
