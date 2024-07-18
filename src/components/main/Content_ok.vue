@@ -59,7 +59,7 @@
                 <!-- 项目项结束 -->
             </a>
             <!---->
-            <a class="projectItem" target="_blank" href="https://www.yangjie.site/foot">
+            <a class="projectItem" target="_blank" href="https://foot.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>足迹</h1>
@@ -70,7 +70,7 @@
                 </div>
                 <!-- 项目项结束 -->
             </a>
-            <a class="projectItem" target="_blank" href="https://www.yangjie.site/music">
+            <a class="projectItem" target="_blank" href="https://music.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>音乐小站</h1>

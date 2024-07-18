@@ -1,3 +1,13 @@
+<!-- <script>
+import VueTypedJs from 'vue-typed-js'
+
+export default {
+  components: {
+    VueTypedJs
+  }
+}
+</script> -->
+
 <template>
     <header>
         <!-- 头部开始 -->
@@ -10,12 +20,11 @@
             <span class="purpleText"> 业余的</span> 开发者 / 喜欢折腾各种
             <span class="purpleText"> 新鲜事物</span>
         </div>
-        <div class="description">
-            🌊 人生就像一艘小船，内心指引方向
-            <!-- <span class="purpleText textBackground"></span> -->
-        </div>
+        <!-- <div class="description">
+            <vue-typed-js :strings="['🌊 人生就像一艘小船，内心指引方向']" :typeSpeed="50" :startDelay="500" :showCursor="false"></vue-typed-js>
+        </div> -->
         <div class="iconContainer">
-            <a class="iconItem" data-tip="Github" target="_blank" href="https://kkgithub.com/jiege6919">
+            <a class="iconItem" data-tip="Github" target="_blank" href="https://github.com/jiege6919">
                 <svg t="1704870335945" class="icon" viewBox="0 0 1024 1024" version="1.1"
                     xmlns="http://www.w3.org/2000/svg" p-id="2487" width="22px" height="22px">
                     <path
@@ -49,15 +58,15 @@
                         d="M306.005333 117.632L444.330667 256h135.296l138.368-138.325333a42.666667 42.666667 0 0 1 60.373333 60.373333L700.330667 256H789.333333A149.333333 149.333333 0 0 1 938.666667 405.333333v341.333334a149.333333 149.333333 0 0 1-149.333334 149.333333h-554.666666A149.333333 149.333333 0 0 1 85.333333 746.666667v-341.333334A149.333333 149.333333 0 0 1 234.666667 256h88.96L245.632 177.962667a42.666667 42.666667 0 0 1 60.373333-60.373334zM789.333333 341.333333h-554.666666a64 64 0 0 0-63.701334 57.856L170.666667 405.333333v341.333334a64 64 0 0 0 57.856 63.701333L234.666667 810.666667h554.666666a64 64 0 0 0 63.701334-57.856L853.333333 746.666667v-341.333334A64 64 0 0 0 789.333333 341.333333zM341.333333 469.333333a42.666667 42.666667 0 0 1 42.666667 42.666667v85.333333a42.666667 42.666667 0 0 1-85.333333 0v-85.333333a42.666667 42.666667 0 0 1 42.666666-42.666667z m341.333334 0a42.666667 42.666667 0 0 1 42.666666 42.666667v85.333333a42.666667 42.666667 0 0 1-85.333333 0v-85.333333a42.666667 42.666667 0 0 1 42.666667-42.666667z"
                          p-id="28588"></path>
                 </svg></a>
-            <!-- <a class="iconItem" data-tip="主题切换" href="javascript:void(0)">
-                <div class="onoffswitch">
-                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-                    <label class="onoffswitch-label" for="myonoffswitch"> <span class="onoffswitch-inner"></span> <span
-                            class="onoffswitch-switch"></span> </label>
-                </div>
-            </a> -->
         </div>
         <!-- 图标容器结束 -->
     </header>
     <!-- 头部结束 -->
 </template>
+
+
+
+<style>
+
+/*打字效果*/
+</style>
