@@ -11,7 +11,8 @@
   "dependencies": {
     "theme-switcher": "^1.0.2",
     "vue": "^3.4.29",
-    "vue-dark-switch": "^1.0.6"
+    "vue-dark-switch": "^1.0.6",
+    "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

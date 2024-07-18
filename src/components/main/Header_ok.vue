@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 import VueTypedJs from 'vue-typed-js'
 
 export default {
@@ -6,7 +6,7 @@ export default {
     VueTypedJs
   }
 }
-</script> -->
+</script>
 
 <template>
     <header>
