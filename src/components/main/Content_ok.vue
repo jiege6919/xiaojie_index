@@ -41,7 +41,7 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>今日热榜 × 小杰</h1>
-                    <p>大佬写的 API，为了稳定，搭建在自己的服务器上，从ipv6转到ipv4了，腾讯云轻量服务器后续可能会支持 v4/v6 双通。新闻热点，一网打尽，一目了然</p>
+                    <p>大佬写的 API，为了稳定，搭建在自己的服务器上，从 ipv6 转到 ipv4 了，腾讯云轻量服务器后续可能会支持 v4/v6 双通。新闻热点，一网打尽，一目了然</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -64,7 +64,7 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>原神，启动！</h1>
-                    <p>大佬开源的web音乐，我用来放原神的BGM了</p>
+                    <p>大佬开源的 web音乐，我用来放原神的 BGM 了</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -88,8 +88,8 @@
             <a class="projectItem" target="_blank" href="https://alist.jie-ipv6.cn:6688">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
-                    <h1>Nas管理</h1>
-                    <p>绕过nas登录，方便在外面管理，ipv6公网直连</p>
+                    <h1>Nas 管理</h1>
+                    <p>绕过 nas 登录，方便在外面管理，ipv6 公网直连</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -152,9 +152,8 @@
     opacity: 0.3;
     content: ' ';
     width: 57px;
-    height: 44%;
+    height: 80%;
     left: 50%;
-    top: 5px;
     z-index: -1;
     border-radius: 0.4rem;
     background-color: #1296db;

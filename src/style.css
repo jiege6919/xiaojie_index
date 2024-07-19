@@ -421,6 +421,20 @@ body {
 .projectItemLeft {
   transition: all 0.4s ease;
   width: 100%;
+  height: 85px;
+  overflow: auto;
+}
+
+.projectItemLeft::-webkit-scrollbar-thumb {
+  background-color: #1296db;
+  border-radius: 2em;
+  background-image: none;
+  transform: translateY(var(--thumb-offset, 0));
+}
+
+.projectItemLeft::-webkit-scrollbar {
+  width: 2px;
+  background-color: transparent;
 }
 
 .projectItemRight {
@@ -507,6 +521,7 @@ footer a:hover {
   .projectItem.fade-in-visible {
     margin: 10px 0 10px 0;
   }
+
   .out_site img {
     width: 25% !important;
   }
