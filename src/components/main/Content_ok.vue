@@ -18,7 +18,7 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>杂记</h1>
-                    <p>已迁到hexo，折腾不动了，长期耕耘，不瞎搞了</p>
+                    <p>已迁到 hexo，折腾不动了，长期耕耘，不瞎搞了。腾讯云 CDN 加速，国内各地 ＜0.5s 火箭响应。禁国外 IP；开启防盗链，恶意刷流量，永久封IP。防护由腾讯云提供支持！</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
