@@ -9,11 +9,12 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
-        globPatterns: [
-          '**/*.{css,js}',
-          '**/*.{jpg,jpeg,png,webp,mp3,woff2,xml,json,ico,svg,gif}',
-          '**/*.html' 
-        ],
+        cleanupOutdatedCaches: true,
+        // globPatterns: [
+        //   '**/*.{css,js}',
+        //   '**/*.{jpg,jpeg,png,webp,mp3,woff2,xml,json,ico,svg,gif}',
+        //   '**/*.html' 
+        // ],
         runtimeCaching: [
           {
             urlPattern: /\.(?:html)$/,
@@ -30,7 +31,7 @@ export default defineConfig({
             urlPattern: /\.(?:css|js)$/,
             handler: 'StaleWhileRevalidate', // 先使用缓存，并异步获取更新
             options: {
-              cacheName: 'static-resources-cache',
+              cacheName: 'css&js-cache',
               expiration: {
                 maxEntries: 50,
                 maxAgeSeconds: 30 * 24 * 60 * 60, // 缓存 30 天
@@ -41,7 +42,7 @@ export default defineConfig({
             urlPattern: /\.(?:jpg|jpeg|png|webp|mp3|woff2|xml|json|ico|svg|gif)$/,
             handler: 'CacheFirst', // 优先使用缓存
             options: {
-              cacheName: 'image-audio-cache',
+              cacheName: 'static-cache',
               expiration: {
                 maxEntries: 100, // 可以根据需要调整
                 maxAgeSeconds: 30 * 24 * 60 * 60, // 缓存 30 天

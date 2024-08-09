@@ -12,8 +12,9 @@
   <canvas id="universe" style="position: fixed; margin: 0; width: 100%; height: 100%; z-index: -1;"></canvas>
   <!-- 昼夜切换 -->
   <SwitchIcon />
-
   <div class="main">
+    <button @click="showToast"
+      style="border: 0;width: 78px;height: 46px;border-radius: 9px;transform: translateX(-50%);left: 50%;position: relative;cursor: pointer;">重要通知</button>
     <Header_ok></Header_ok>
     <Content_ok></Content_ok>
     <Footer_ok></Footer_ok>
@@ -32,6 +33,28 @@ import { onMounted } from 'vue';
 onMounted(() => {
   dark();
 });
+
+
+import { useToast } from 'vue-toastification';
+
+// 调用 useToast 函数来获取 toast 实例
+const toast = useToast();
+
+// 定义 showToast 方法，用于显示 Toast
+const showToast = () => {
+  toast('全站有 SW 缓存加速，按 F5 即可全站刷新', {
+    position: 'bottom-right',
+    timeout: 50000, // 消息显示时长 (毫秒)
+  });
+  toast('一般情况下，不影响使用，无视即可', {
+    position: 'bottom-right',
+    timeout: 50000, // 消息显示时长 (毫秒)
+  });
+  toast('每次访问由 SW 控制页面渲染，自动更新，自动缓存', {
+    position: 'bottom-right',
+    timeout: 50000, // 消息显示时长 (毫秒)
+  });
+};
 </script>
 
 
@@ -57,5 +80,4 @@ onMounted(() => {
   top: 10px;
   right: 20px;
 }
-
 </style>
