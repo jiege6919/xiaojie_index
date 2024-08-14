@@ -18,7 +18,8 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>杂记</h1>
-                    <p>已迁到 hexo，折腾不动了，长期耕耘，不瞎搞了。腾讯云 CDN 加速，国内各地 ＜0.5s 火箭响应。禁国外 IP；开启防盗链，恶意刷流量，永久封IP。防护由腾讯云提供支持！</p>
+                    <p>已迁到 hexo，折腾不动了，长期耕耘，不瞎搞了。弃用腾讯云 CDN 加速，主要是要手动更新 SSL 证书，我没有那时间。第一次访问会有些许慢，耐心等待，全站开了 Service Worker
+                        缓存的，之后的访问就会 快到飞起。30天强刷新！</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -85,11 +86,12 @@
             <!---->
             <p class="projectList_p"><code>IPV6</code></p>
             <!---->
-            <a class="projectItem" target="_blank" href="https://alist.jie-ipv6.cn:6688">
+            <a class="projectItem" target="_blank" href="https://alist.jie-ipv6.cn">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas 管理</h1>
-                    <p>绕过 nas 登录，方便在外面管理，ipv6 公网直连</p>
+                    <p>内网环境下使用，外网访问请加 6688 端口。绕过 nas 登录，方便在外面管理，ipv6(只) 公网直连。反向代理对速度有影响，但测试能有 8MB+ 每秒的下行。Docker 创建、Alist
+                        驱动、Lucky 反代</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
