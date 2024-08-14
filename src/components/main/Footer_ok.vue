@@ -4,8 +4,10 @@
     font-weight: bold;">
     小杰 © 2019-2024 | <a href="https://beian.miit.gov.cn/">蜀ICP备2021020461号-2</a>
     <li class="nav_list" style="margin-top: 10px; list-style-type: none;">
-      <a class="out_site" href="https://www.foreverblog.cn/go.html" target="_blank"><img src="/src/assets/images/222.png" alt="虫洞" title="虫洞"></a>
-      <a class="out_site" href="https://cloud.tencent.com/" target="_blank"><img src="/src/assets/images/txy.png" alt="腾讯云" title="腾讯云"></a>
+      <a class="out_site" href="https://www.foreverblog.cn/go.html" target="_blank"><img
+          src="/src/assets/images/222.png" alt="虫洞" title="虫洞"></a>
+      <a class="out_site" href="https://cloud.tencent.com/" target="_blank"><img src="/src/assets/images/txy.png"
+          alt="腾讯云" title="腾讯云"></a>
     </li>
   </footer>
 </template>
@@ -14,6 +16,7 @@
 .out_site {
   margin-right: 16px;
 }
+
 .out_site img {
   width: 10%;
 }
