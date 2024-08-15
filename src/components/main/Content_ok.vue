@@ -18,7 +18,8 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>杂记</h1>
-                    <p>已迁到 hexo，折腾不动了，长期耕耘，不瞎搞了。弃用腾讯云 CDN 加速，主要是要手动更新 SSL 证书，我没有那时间。第一次访问会有些许慢，耐心等待，全站开了 Service Worker
+                    <p>已迁到 hexo，折腾不动了，长期耕耘，不瞎搞了。<br><br>弃用腾讯云 CDN 加速，主要是要手动更新 SSL 证书，我没有那时间。第一次访问会有些许慢，耐心等待，全站开了 Service
+                        Worker
                         缓存的，之后的访问就会 快到飞起。30天强刷新！</p>
                 </div>
                 <div class="projectItemRight">
@@ -256,7 +257,7 @@
                 </path>
             </svg> 小程序 / 公众号
         </div>
-        <img style="width: 90px; display: block; margin-left: 30%;" src="/src/assets/images/logo.webp" alt="logo"
+        <img style="width: 90px; display: block; margin-left: 30px;" src="/src/assets/images/logo.webp" alt="logo"
             title="logo"><br>
         <img class="xiaochengxu-light-dark-background" src="../../assets/images/1.png" alt="小程序">
 

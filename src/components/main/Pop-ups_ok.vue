@@ -2,7 +2,7 @@
     <!--弹窗-->
     <div class="tc">
         <div class="tc-main">
-            <img class="tc-img" src="" alt="求打赏">
+            <img class="tc-img" src="/src/assets/images/wxpay.png" alt="求打赏">
         </div>
         <div onclick="wx()" class="tc-close">
             <svg t="1705548649866" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"

@@ -24,7 +24,6 @@
   transition: all 0.1s ease;
 }
 
-
 ::-webkit-scrollbar {
   width: 9px;
   height: 8px;
@@ -32,14 +31,21 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #1296db;
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
   -webkit-border-radius: 2em;
   -moz-border-radius: 2em;
   border-radius: 2em;
   cursor: pointer;
 }
-
-
 
 a:hover,
 a:link,
@@ -214,10 +220,12 @@ body {
   background-size: 200%;
   background-position: 0%;
   animation: backgroundSizeAnimation 2s ease-in-out infinite;
-  background-image: linear-gradient(45deg,
-      var(--gradient-start),
-      var(--gradient-middle) 30%,
-      var(--gradient-end) 60%);
+  background-image: linear-gradient(
+    45deg,
+    var(--gradient-start),
+    var(--gradient-middle) 30%,
+    var(--gradient-end) 60%
+  );
 }
 
 @keyframes backgroundSizeAnimation {
@@ -259,7 +267,7 @@ body {
   width: 100%;
   gap: 10px;
   display: flex;
-  margin-top: 30px;
+  margin-top: 45px;
   flex-wrap: wrap;
 }
 
@@ -329,6 +337,10 @@ body {
   background: var(--icon-5-hover-color);
 }
 
+.iconItem:hover svg {
+  fill: #fff;
+}
+
 .tanChiShe {
   width: 100%;
   margin-top: 15px;
@@ -349,7 +361,6 @@ body {
   margin: 20px 0;
   transition: all 0.4s ease;
 }
-
 
 .title:hover {
   transform: translateY(-5px);
@@ -669,11 +680,11 @@ footer a:hover {
   transition: all 0.2s ease-in 0s;
 }
 
-.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
   margin-left: 0;
 }
 
-.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
   right: 50%;
 }
 
