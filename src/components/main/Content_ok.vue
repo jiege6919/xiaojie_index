@@ -257,9 +257,10 @@
                 </path>
             </svg> 小程序 / 公众号
         </div>
-        <img style="width: 90px; display: block; margin-left: 30px;" src="/src/assets/images/logo.webp" alt="logo"
-            title="logo"><br>
-        <img class="xiaochengxu-light-dark-background" src="../../assets/images/1.png" alt="小程序">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 80%;">
+            <img src="/src/assets/images/logo.webp" alt="logo" title="logo" style="width: 84px;">
+            <img class="xiaochengxu-light-dark-background" src="../../assets/images/1.png" alt="小程序">
+        </div>
 
         <!-- 技能结束 -->
     </content>

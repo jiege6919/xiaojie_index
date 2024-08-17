@@ -8,7 +8,7 @@
           src="/src/assets/images/222.png" alt="虫洞" title="虫洞"></a>
       <a class="out_site" href="https://cloud.tencent.com/" target="_blank"><img src="/src/assets/images/txy.png"
           alt="腾讯云" title="腾讯云"></a>
-      <a class="out_site" href="https://lucky666.cn/" target="_blank"><img style="width: 28px;"
+      <a class="out_site" href="https://lucky666.cn/" target="_blank"><img style="width: 28px !important;"
           src="/src/assets/images/lucky.png" alt="lucky" title="lucky"></a>
     </li>
   </footer>
