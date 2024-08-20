@@ -11,7 +11,6 @@
   </div>
   <canvas id="universe" style="position: fixed; margin: 0; width: 100%; height: 100%; z-index: -1;"></canvas>
   <!-- 昼夜切换 -->
-  <SwitchIcon />
   <div class="main">
     <button @click="showToast"
       style="border: 0;width: 78px;height: 46px;border-radius: 9px;transform: translateX(-50%);left: 50%;position: relative;cursor: pointer;"><svg
@@ -57,7 +56,6 @@ import Header_ok from './components/main/Header_ok.vue';
 import Content_ok from './components/main/Content_ok.vue';
 import Footer_ok from './components/main/Footer_ok.vue';
 import Popups_ok from './components/main/Pop-ups_ok.vue';
-import { SwitchIcon } from "vue-dark-switch";
 import { dark } from './assets/dark.js';
 import { onMounted } from 'vue';
 onMounted(() => {

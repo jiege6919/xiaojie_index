@@ -25,7 +25,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 6px;
   height: 8px;
 }
 
@@ -420,6 +420,7 @@ body {
   font-size: 13px;
   margin-top: 8px;
   color: var(--project-item-left-text-color);
+  padding-right: 6px;
 }
 
 .projectItemLeft h1 {
