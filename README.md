@@ -32,3 +32,10 @@
 0.1.0 版本 / 2024年1月20日
 
 0.2.0 版本 / 2024年7月16日 支持昼夜模式，`by vue-dark-switch`
+
+0.3.0 版本 / 2024年8月25日 
+1. pwa 支持离线访问 by `vite-plugin-pwa`
+2. 打字效果 by `vue-typed-js`
+3. 弹窗触发 by `vue-toastification`
+4. 一些前端效果借鉴的 **https://uiverse.io/**
+5. logo 是我妹给我设计的

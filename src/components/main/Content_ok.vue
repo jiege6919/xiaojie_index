@@ -91,7 +91,9 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Alist</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>Alist，我太爱了，网盘聚合神器</p>
+                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>Alist，我太爱了，网盘聚合神器。绕过 nas 登录，方便在外面管理，ipv6(只) 公网直连。反向代理对速度有影响，但测试能有
+                        每秒 8MB+ 的下行。Docker
+                        创建</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -102,7 +104,7 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Admin</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>绕过 nas 登录，方便在外面管理，ipv6(只) 公网直连</p>
+                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>绕过 nas 登录，方便在外面管理</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -113,8 +115,7 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Lucky</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>绕过 nas 登录，方便在外面管理，ipv6(只) 公网直连。反向代理对速度有影响，但测试能有 每秒 8MB+ 的下行。Docker
-                        创建</p>
+                    <p>内网环境下使用，外网访问请加 6688 端口。</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
