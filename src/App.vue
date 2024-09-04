@@ -72,15 +72,11 @@ const toast = useToast();
 const showToast = () => {
   toast('全站有 SW 缓存加速，按 F5 即可全站刷新', {
     position: 'bottom-right',
-    timeout: 50000, // 消息显示时长 (毫秒)
+    timeout: 30000, // 消息显示时长 (毫秒)
   });
-  toast('一般情况下，不影响使用，无视即可', {
+  toast('本人工作特殊，联系不上，请见谅！', {
     position: 'bottom-right',
-    timeout: 50000, // 消息显示时长 (毫秒)
-  });
-  toast('每次访问由 SW 控制页面渲染，自动更新，自动缓存', {
-    position: 'bottom-right',
-    timeout: 50000, // 消息显示时长 (毫秒)
+    timeout: 30000, // 消息显示时长 (毫秒)
   });
 };
 </script>

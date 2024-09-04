@@ -93,7 +93,7 @@
                     <h1>Nas | Alist</h1>
                     <p>内网环境下使用，外网访问请加 6688 端口。<br><br>Alist，我太爱了，网盘聚合神器。绕过 nas 登录，方便在外面管理，ipv6(只) 公网直连。反向代理对速度有影响，但测试能有
                         每秒 8MB+ 的下行。Docker
-                        创建</p>
+                        创建，lucky 反代</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -103,19 +103,19 @@
             <a class="projectItem" target="_blank" href="https://nas.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
-                    <h1>Nas | Admin</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>绕过 nas 登录，方便在外面管理</p>
+                    <h1>Nas | Web_UI</h1>
+                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>极空间 web 界面，需要手机验证，限本人使用，不要再试了</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
-            <a class="projectItem" target="_blank" href="https://lucky-nas.yangjie.site/">
+            <a class="projectItem" target="_blank" href="https://lucky.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Lucky</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口。</p>
+                    <p>内网环境下使用，外网访问请加 6688 端口</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
