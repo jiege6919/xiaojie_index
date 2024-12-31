@@ -11,7 +11,7 @@
         </div>
         <div class="projectList">
 
-            <p class="projectList_p"><code> IPV4</code></p>
+            <p class="projectList_p"><code>IPV 4</code></p>
             <!-- 项目列表开始 -->
             <!---->
             <a class="projectItem" target="_blank" href="https://box.yangjie.site">
@@ -85,37 +85,37 @@
                 <!-- 项目项结束 -->
             </a>
             <!---->
-            <p class="projectList_p"><code>IPV6</code></p>
+            <p class="projectList_p"><code>IPV 4/6</code></p>
             <!---->
-            <a class="projectItem" target="_blank" href="https://alist.yangjie.site/">
+            <a class="projectItem" target="_blank" href="http://nas.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Alist</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>Alist，我太爱了，网盘聚合神器。绕过 nas 登录，方便在外面管理，ipv6(只) 公网直连。反向代理对速度有影响，但测试能有
-                        每秒 8MB+ 的下行。Docker
-                        创建，lucky 反代</p>
+                    <p>去除 SSL 证书，太麻烦了额。ipv6 走 5244 端口，ipv4 端口保密</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
-            <a class="projectItem" target="_blank" href="https://nas.yangjie.site/">
+            <a class="projectItem" target="_blank" href="http://nas.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Web_UI</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口。<br><br>极空间 web 界面，需要手机验证，限本人使用，不要再试了</p>
+                    <p>ipv6 走 5055端口，https 安全连接走 5056。ipv4 端口保密<br><br>极空间 web 界面，需要手机验证，限本人使用，不要再试了</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
-            <a class="projectItem" target="_blank" href="https://lucky.yangjie.site/">
+            <a class="projectItem" target="_blank" href="http://nas.yangjie.site/">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Lucky</h1>
-                    <p>内网环境下使用，外网访问请加 6688 端口</p>
+                    <p>ipv6 走 8888 端口，ipv4 不建立连接
+                        <br> <br> <i style="color: red;"><b>外网静止访问</b></i>
+                    </p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -298,7 +298,7 @@
     width: 100%;
     height: 36px;
     display: block;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -308,9 +308,9 @@
     position: absolute;
     opacity: 0.3;
     content: ' ';
-    width: 57px;
+    width: 86px;
     height: 80%;
-    left: 50%;
+    left: 32px;
     z-index: -1;
     border-radius: 0.4rem;
     background-color: #1296db;
