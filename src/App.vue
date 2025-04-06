@@ -13,7 +13,7 @@
   <!-- 昼夜切换 -->
   <div class="main">
     <button @click="showToast"
-      style="border: 0;width: 78px;height: 46px;border-radius: 9px;transform: translateX(-50%);left: 50%;position: relative;cursor: pointer;"><svg
+      style="width: 69px;height: 36px;border-radius: 9px;right: 20px;position: absolute;cursor: alias;font-size: x-small; border-color: #1296db; color: #1296db;"><svg
         style=" width: 26px; position: absolute; height: auto; right: -16px; top: -16px; " t="1723346780625"
         class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8153" width="192"
         height="192">

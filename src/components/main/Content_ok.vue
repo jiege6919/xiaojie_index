@@ -10,9 +10,10 @@
             </svg> 子网站 / Subsites
         </div>
         <div class="projectList">
-
-            <p class="projectList_p"><code>IPV 4</code></p>
             <!-- 项目列表开始 -->
+            <!---->
+            <p class="projectList_p"><code>IPV 4/6</code><a href="https://ipw.cn" target="_blank"
+                    style=" right: 0; position: absolute; padding-right: 10px;">网络自检🔍</a></p>
             <!---->
             <a class="projectItem" target="_blank" href="https://box.yangjie.site">
                 <!-- 项目项开始 -->
@@ -30,9 +31,11 @@
             <!---->
             <a class="projectItem" target="_blank" href="https://nav.yangjie.site">
                 <!-- 项目项开始 -->
-                <div class="projectItemLeft">
+                <div class="projectItemLeft projectItemLeft_one">
                     <h1>导航</h1>
-                    <p>做网站的起点，一切的开始。很久没动了，等找个时间再好好优化一下吧，呜呜</p>
+                    <p class="projectItemLeft_other"><s>做网站的起点，一切的开始。很久没动了，等找个时间再好好优化一下吧，呜呜</s></p>
+                    <p class="other_one" style="font-size: 20px;">项目封存
+                    </p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -43,7 +46,7 @@
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>今日热榜 × 小杰</h1>
-                    <p>大佬写的 API，为了稳定，搭建在自己的服务器上，从 ipv6 转到 ipv4 了，腾讯云轻量服务器后续可能会支持 v4/v6 双通。新闻热点，一网打尽，一目了然</p>
+                    <p>大佬写的 API，为了稳定，搭建在自己的服务器上，支持 v4/v6 双通。新闻热点，一网打尽，一目了然</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
@@ -84,36 +87,36 @@
                 </div>
                 <!-- 项目项结束 -->
             </a>
+            <hr
+                style="position: relative;margin: 40px auto;border: 4px dashed #1296db;width: calc(100% - 32%);border-radius: 15px;">
             <!---->
-            <p class="projectList_p"><code>IPV 4/6</code></p>
-            <!---->
-            <a class="projectItem" target="_blank" href="http://nas.yangjie.site/">
+            <a class="projectItem" target="_blank" href="http://nas.yangjie.site:6868">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Alist</h1>
-                    <p>去除 SSL 证书，太麻烦了额。ipv6 走 5244 端口，ipv4 端口保密</p>
+                    <p>去除 SSL 证书，太麻烦了额。ipv6 走极空间 6868 端口，ipv4 保密处理，动态变化</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
-            <a class="projectItem" target="_blank" href="http://nas.yangjie.site/">
+            <a class="projectItem" target="_blank" href="http://nas.yangjie.site:5055">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Web_UI</h1>
-                    <p>ipv6 走 5055端口，https 安全连接走 5056。ipv4 端口保密<br><br>极空间 web 界面，需要手机验证，限本人使用，不要再试了</p>
+                    <p>ipv6 走极空间 5055 端口，https 安全连接走极空间 5056。ipv4 保密处理，动态变化<br><br>极空间 web 界面，需要手机验证，限本人使用，不要再试了</p>
                 </div>
                 <div class="projectItemRight">
                     <img src="/src/assets/images/512.png" alt="">
                 </div>
                 <!-- 项目项结束 -->
             </a>
-            <a class="projectItem" target="_blank" href="http://nas.yangjie.site/">
+            <a class="projectItem" target="_blank" href="http://nas.yangjie.site:8888">
                 <!-- 项目项开始 -->
                 <div class="projectItemLeft">
                     <h1>Nas | Lucky</h1>
-                    <p>ipv6 走 8888 端口，ipv4 不建立连接
+                    <p>ipv6 走 8888 端口，ipv4 保密处理，动态变化
                         <br> <br> <i style="color: red;"><b>外网静止访问</b></i>
                     </p>
                 </div>
@@ -316,6 +319,10 @@
     background-color: #1296db;
 }
 
+.projectList_p a:hover {
+    color: #1296db;
+}
+
 /* 二妹web */
 .yang2s_button button {
     position: relative;
@@ -352,7 +359,7 @@
     width: 25px;
     transform-origin: 0 0;
     transform: rotate(10deg);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.1s ease-in-out;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
     animation: slay-1 3s cubic-bezier(0.52, 0, 0.58, 1) infinite;
     transform: rotate(10deg);
@@ -383,7 +390,7 @@
     width: 12px;
     transform-origin: 50% 0;
     transform: rotate(10deg);
-    transition: all 1s ease-in-out;
+    transition: all .1s ease-in-out;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
     animation: slay-2 3s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
     transform: rotate(0);
@@ -414,7 +421,7 @@
     width: 18px;
     transform-origin: 50% 0;
     transform: rotate(-5deg);
-    transition: all 1s ease-in-out;
+    transition: all .1s ease-in-out;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
     animation: slay-3 2s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
     transform: rotate(0);
@@ -588,5 +595,14 @@
 
 .time_button .fil0 {
     fill: #ffc107;
+}
+
+.projectItemLeft_one:hover .projectItemLeft_other {
+    display: none;
+}
+
+.projectItemLeft_other:hover .other_one {
+    display: block;
+    font-size: 20px;
 }
 </style>
